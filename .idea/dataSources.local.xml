@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="PostgreSQL - shouter@localhost" uuid="0fbd3f3a-5c7f-4f8f-8a44-9fc6eecc1cf8">
+      <secret-storage>master_key</secret-storage>
+      <schema-pattern>shouter.*</schema-pattern>
+      <default-schemas>shouter.*</default-schemas>
+    </data-source>
+  </component>
+</project>
