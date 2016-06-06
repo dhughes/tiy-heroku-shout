@@ -23,52 +23,6 @@
     <option name="SORT_POSITIONED" value="false" />
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="PostgreSQL - shouter@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="public" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="PostgreSQL - shouter@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="public" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$GroupNode" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="shouts" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="PostgreSQL - shouter@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -86,21 +40,61 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="migration.clj" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/shouter/model/migration.clj">
+      <file leaf-file-name="shouts.clj" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/shouter/views/shouts.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+            <state relative-caret-position="220">
+              <caret line="10" column="14" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shout.clj" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/shouter/model/shout.clj">
+      <file leaf-file-name="core.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/shouter/core.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="migration.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/shouter/models/migration.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="33" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shout.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/shouter/models/shout.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shouts.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/shouter/controllers/shouts.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="33" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/shouter/web.clj">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
-              <caret line="10" column="45" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="9" />
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -143,9 +137,13 @@
       <list>
         <option value="$PROJECT_DIR$/src/shouter/views/layout.clj" />
         <option value="$PROJECT_DIR$/project.clj" />
-        <option value="$PROJECT_DIR$/src/shouter/views/shouts.clj" />
-        <option value="$PROJECT_DIR$/src/shouter/model/shout.clj" />
         <option value="$PROJECT_DIR$/src/shouter/model/migration.clj" />
+        <option value="$PROJECT_DIR$/src/shouter/model/shout.clj" />
+        <option value="$PROJECT_DIR$/src/shouter/models/migration.clj" />
+        <option value="$PROJECT_DIR$/src/shouter/web.clj" />
+        <option value="$PROJECT_DIR$/src/shouter/models/shout.clj" />
+        <option value="$PROJECT_DIR$/src/shouter/controllers/shouts.clj" />
+        <option value="$PROJECT_DIR$/src/shouter/views/shouts.clj" />
       </list>
     </option>
   </component>
@@ -157,8 +155,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="705" />
+    <option name="width" value="1440" />
+    <option name="height" value="805" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -186,7 +184,108 @@
     </navigator>
     <panes>
       <pane id="ProjectPane">
-        <subPane />
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shouter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shouter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shouter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shouter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shouter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shouter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shouter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shouter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shouter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shouter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shouter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shouter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shouter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shouter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shouter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
       </pane>
       <pane id="Scope" />
       <pane id="Scratches" />
@@ -207,7 +306,7 @@
     <property name="js-jscs-nodeInterpreter" value="$USER_HOME$/.nvm/versions/node/v6.2.0/bin/node" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL" />
   </component>
-  <component name="ReplState" timestamp="1465228738845">{:repl-history {:ide [], :local [&quot;(+ 1 1)&quot; &quot;(sql/create-table-ddl :testing [[:data :text]])&quot; &quot;sql&quot; &quot;(sql/)&quot; &quot;(require '[clojure.java.jdbc :as sql])&quot; &quot;(sql/create-table-ddl :testing [[:data :text] [:whatever :varchar]])&quot; &quot;(sql/db-do-commands \&quot;jdbc:postgresql://localhost:5432/shouter\&quot; (sql/create-table-ddl :testing [[:data :text] [:whatever :varchar]]))&quot; &quot;(sql/insert! \&quot;jdbc:postgresql://localhost:5432/shouter\&quot; :test [:data \&quot;Some data\&quot; :whatever \&quot;Whatevs\&quot;])&quot; &quot;(sql/insert! \&quot;jdbc:postgresql://localhost:5432/shouter\&quot; :test {:data \&quot;Some data\&quot; :whatever \&quot;Whatevs\&quot;})&quot; &quot;(sql/insert! \&quot;jdbc:postgresql://localhost:5432/shouter\&quot; :testing {:data \&quot;Some data\&quot; :whatever \&quot;Whatevs\&quot;})&quot; &quot;(sql/insert! \&quot;postgresql://localhost:5432/shouter\&quot;\n                :testing\n                {:data \&quot;Some data 2\&quot; :whatever \&quot;Whatevs 3\&quot;})&quot; &quot;(def jdbcurl \&quot;postgresql://localhost:5432/shouter\&quot;)&quot; &quot;(sql/query jdbcurl [\&quot;select * from testing\&quot;])&quot; &quot;(sql/query jdbcurl [\&quot;select * from testing\&quot;] [\&quot;select data from testing\&quot;])&quot; &quot;(sql/query jdbcurl [\&quot;select * from testing\&quot; \&quot;select data from testing\&quot;])&quot; &quot;(sql/query jdbcurl [\&quot;DROP TABLE testing\&quot;])&quot; &quot;(sql/db-do-commands jdbcurl [\&quot;DROP TABLE testing\&quot;])&quot; &quot;(shouter.views.layout/common \&quot;Doug was here\&quot; \&quot;any\&quot; \&quot;number\&quot; \&quot;of\&quot; \&quot;tings\&quot;)&quot; &quot;(clojure.repl/doc list)&quot; &quot;(clojure.repl/doc vector)&quot; &quot;(h/html5 [:p \&quot;Hi there!\&quot;])&quot; &quot;(hiccup/html [:p \&quot;sfdsdfafdssdfa\&quot;])&quot; &quot;(hiccup.page/html5 [:body [:p \&quot;Hello World!\&quot;]])&quot; &quot;(hiccup.page/html5 [:body [:p \&quot;Hello World!\&quot;] [:br]])&quot; &quot;(hiccup.page/html5 [:body [:a {:href \&quot;fsdafdsafdsa\&quot;} \&quot;Hello World!\&quot; ] [:a {:href \&quot;sfdfsdfsdafsda\&quot;} \&quot;stuff\&quot;]])&quot; &quot;(hiccup.page/html5 [:body \n                    [:a {:href \&quot;fsdafdsafdsa\&quot;} \&quot;Hello World!\&quot;] \n                    \&quot; \&quot;\n                    [:a {:href \&quot;sfdfsdfsdafsda\&quot;} \&quot;stuff\&quot;]])&quot; &quot;(hiccup.page/html5 [:body \n                    [:a {:href \&quot;fsdafdsafdsa\&quot;} \&quot;Hello World!\&quot;] \n                    [:span \&quot; \&quot;]\n                    [:a {:href \&quot;sfdfsdfsdafsda\&quot;} \&quot;stuff\&quot;]])&quot; &quot;(hiccup.page/html5 [:body \n                    [:a {:href \&quot;fsdafdsafdsa\&quot;} \&quot;Hello World!\&quot;] \n                    \&quot; any other text \&quot;\n                    [:a {:href \&quot;sfdfsdfsdafsda\&quot;} \&quot;stuff\&quot;]])&quot; &quot;(common \&quot;Doug is here\&quot; [:em \&quot;Got no coffee on me!!\&quot;])&quot; &quot;(four-oh-four)&quot;], :remote []}}</component>
+  <component name="ReplState" timestamp="1465234918401">{:repl-history {:ide [], :local [&quot;(+ 1 1)&quot; &quot;(sql/create-table-ddl :testing [[:data :text]])&quot; &quot;sql&quot; &quot;(sql/)&quot; &quot;(require '[clojure.java.jdbc :as sql])&quot; &quot;(sql/create-table-ddl :testing [[:data :text] [:whatever :varchar]])&quot; &quot;(sql/db-do-commands \&quot;jdbc:postgresql://localhost:5432/shouter\&quot; (sql/create-table-ddl :testing [[:data :text] [:whatever :varchar]]))&quot; &quot;(sql/insert! \&quot;jdbc:postgresql://localhost:5432/shouter\&quot; :test [:data \&quot;Some data\&quot; :whatever \&quot;Whatevs\&quot;])&quot; &quot;(sql/insert! \&quot;jdbc:postgresql://localhost:5432/shouter\&quot; :test {:data \&quot;Some data\&quot; :whatever \&quot;Whatevs\&quot;})&quot; &quot;(sql/insert! \&quot;jdbc:postgresql://localhost:5432/shouter\&quot; :testing {:data \&quot;Some data\&quot; :whatever \&quot;Whatevs\&quot;})&quot; &quot;(sql/insert! \&quot;postgresql://localhost:5432/shouter\&quot;\n                :testing\n                {:data \&quot;Some data 2\&quot; :whatever \&quot;Whatevs 3\&quot;})&quot; &quot;(def jdbcurl \&quot;postgresql://localhost:5432/shouter\&quot;)&quot; &quot;(sql/query jdbcurl [\&quot;select * from testing\&quot;])&quot; &quot;(sql/query jdbcurl [\&quot;select * from testing\&quot;] [\&quot;select data from testing\&quot;])&quot; &quot;(sql/query jdbcurl [\&quot;select * from testing\&quot; \&quot;select data from testing\&quot;])&quot; &quot;(sql/query jdbcurl [\&quot;DROP TABLE testing\&quot;])&quot; &quot;(sql/db-do-commands jdbcurl [\&quot;DROP TABLE testing\&quot;])&quot; &quot;(shouter.views.layout/common \&quot;Doug was here\&quot; \&quot;any\&quot; \&quot;number\&quot; \&quot;of\&quot; \&quot;tings\&quot;)&quot; &quot;(clojure.repl/doc list)&quot; &quot;(clojure.repl/doc vector)&quot; &quot;(h/html5 [:p \&quot;Hi there!\&quot;])&quot; &quot;(hiccup/html [:p \&quot;sfdsdfafdssdfa\&quot;])&quot; &quot;(hiccup.page/html5 [:body [:p \&quot;Hello World!\&quot;]])&quot; &quot;(hiccup.page/html5 [:body [:p \&quot;Hello World!\&quot;] [:br]])&quot; &quot;(hiccup.page/html5 [:body [:a {:href \&quot;fsdafdsafdsa\&quot;} \&quot;Hello World!\&quot; ] [:a {:href \&quot;sfdfsdfsdafsda\&quot;} \&quot;stuff\&quot;]])&quot; &quot;(hiccup.page/html5 [:body \n                    [:a {:href \&quot;fsdafdsafdsa\&quot;} \&quot;Hello World!\&quot;] \n                    \&quot; \&quot;\n                    [:a {:href \&quot;sfdfsdfsdafsda\&quot;} \&quot;stuff\&quot;]])&quot; &quot;(hiccup.page/html5 [:body \n                    [:a {:href \&quot;fsdafdsafdsa\&quot;} \&quot;Hello World!\&quot;] \n                    [:span \&quot; \&quot;]\n                    [:a {:href \&quot;sfdfsdfsdafsda\&quot;} \&quot;stuff\&quot;]])&quot; &quot;(hiccup.page/html5 [:body \n                    [:a {:href \&quot;fsdafdsafdsa\&quot;} \&quot;Hello World!\&quot;] \n                    \&quot; any other text \&quot;\n                    [:a {:href \&quot;sfdfsdfsdafsda\&quot;} \&quot;stuff\&quot;]])&quot; &quot;(common \&quot;Doug is here\&quot; [:em \&quot;Got no coffee on me!!\&quot;])&quot; &quot;(four-oh-four)&quot; &quot;(require '[hiccup.form :as form])&quot; &quot;(form/form-to)&quot; &quot;(h/html5 (shout-form))&quot; &quot;(shout-form)&quot; &quot;(hiccup.core/html (shout-form))&quot; &quot;(h :div)&quot; &quot;(h (:body {:text \&quot;foo\&quot;}))&quot; &quot;(h (:body {:body \&quot;foo\&quot;}))&quot; &quot;(def shout {:body \&quot;foo\&quot;})&quot; &quot;(:body shout)&quot; &quot;(shout :body)&quot; &quot;(h \&quot;sdfasfdasfda\&quot;)&quot; &quot;(h (shout :body))&quot; &quot;(h \&quot;&lt;a&gt;foo&lt;/a&gt;\&quot;)&quot; &quot;(escape-html \&quot;&lt;a&gt;foo&lt;/a&gt;\&quot;)&quot; &quot;(dispay-shouts [{:body \&quot;foo\&quot;} {:body \&quot;bar\&quot;}])&quot; &quot;(shouter.views.layout/display-shouts [{:body \&quot;foo\&quot;} {:body \&quot;bar\&quot;}])&quot; &quot;(shouter.views.shouts/display-shouts [{:body \&quot;foo\&quot;} {:body \&quot;bar\&quot;}])&quot; &quot;[:div {:class \&quot;shouts sixteen columns alpha omega\&quot;}\n (map (fn [shout]\n        [:h2 {:class \&quot;shout\&quot;} (h (:body shout))]) shouts)]&quot; &quot;(display-shouts [{:body \&quot;foo\&quot;} {:body \&quot;bar\&quot;}])&quot; &quot;(index [{:body \&quot;foo\&quot;} {:body \&quot;bar\&quot;}])&quot; &quot;(def spec (or (System/getenv \&quot;DATABASE_URL\&quot;)\n              \&quot;postgresql://localhost:5432/shouter\&quot;))\n\n&quot; &quot;spec&quot; &quot;(create {:body \&quot;I get an error because the table doesn't exist\&quot;})&quot; &quot;(first ({:count 0}))&quot; &quot;(first :count ({:count 0}))&quot; &quot;(first '({:count 0}))&quot; &quot;(:count {:count 0})&quot; &quot;(pos? 1)&quot; &quot;(pos? -1)&quot; &quot;(pos? 0)&quot; &quot;(sql/query shout/spec\n           [(str \&quot;select count(*) from information_schema.tables \&quot;\n                 \&quot;where table_name='shouts'\&quot;)])&quot; &quot;(sql/create-table-ddl\n  :shouts\n  [[:id :serial \&quot;PRIMARY KEY\&quot;]\n   [:body :varchar \&quot;NOT NULL\&quot;]\n   [:created_at :timestamp\n    \&quot;NOT NULL\&quot; \&quot;DEFAULT CURRENT_TIMESTAMP\&quot;]])&quot; &quot;(all)&quot; &quot;(migrated?)&quot; &quot;(create)&quot; &quot;(create {:body \&quot;hi\&quot;})&quot; &quot;(create {:body \&quot;hi scott\&quot;})&quot; &quot;(create \&quot;DAn makes a good point\&quot;)&quot; &quot;(create {:body \&quot;DAn makes a good point\&quot;})&quot; &quot;(shouter.models.migration/migrate)&quot; &quot;(index)&quot; &quot;(routes)&quot; &quot;routes&quot; &quot;application&quot; &quot;(-main)&quot; &quot;(migrate)&quot; &quot;(migrate)\n  &quot;], :remote []}}</component>
   <component name="RunManager" selected="Clojure REPL.REPL for shouter">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
@@ -644,16 +743,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1465222413696</updated>
-      <workItem from="1465222415131" duration="6248000" />
+      <workItem from="1465222415131" duration="9421000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6248000" />
+    <option name="totallyTimeSpent" value="9421000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="705" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="23" width="1440" height="805" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -662,15 +761,16 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293718" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="REPL" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36672053" sideWeight="0.7206133" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2267525" sideWeight="0.40465793" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.439523" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10443491" sideWeight="0.439523" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1542811" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36672053" sideWeight="0.2793867" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15379113" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27825466" sideWeight="0.59534204" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -681,7 +781,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -725,14 +824,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/hiccup/hiccup/1.0.5/hiccup-1.0.5.jar!/hiccup/form.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
@@ -773,22 +864,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/shouter/views/shouts.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/shouter/views/layout.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="57" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/shouter/model/shout.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -801,6 +876,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="1563" column="10" selection-start-line="1563" selection-start-column="10" selection-end-line="1563" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="35" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="35" />
           <folding />
         </state>
       </provider>
@@ -818,18 +901,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/shouter/model/migration.clj">
+    <entry file="jar://$MAVEN_REPOSITORY$/compojure/compojure/1.4.0/compojure-1.4.0.jar!/compojure/route.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        <state relative-caret-position="215">
+          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/shouter/model/shout.clj">
+    <entry file="jar://$MAVEN_REPOSITORY$/ring/ring-defaults/0.1.2/ring-defaults-0.1.2.jar!/ring/middleware/defaults.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="78" column="6" selection-start-line="78" selection-start-column="6" selection-end-line="78" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shouter/models/migration.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shouter/models/shout.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shouter/views/layout.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="57" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shouter/web.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="10" column="45" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="9" />
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shouter/controllers/shouts.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shouter/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shouter/views/shouts.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="14" />
           <folding />
         </state>
       </provider>

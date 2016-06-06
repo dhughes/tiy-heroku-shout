@@ -1,6 +1,6 @@
 (ns shouter.models.migration
   (:require [clojure.java.jdbc :as sql]
-            [shouter.model.shout :as shout]))
+            [shouter.models.shout :as shout]))
 
 (defn migrated? []
   (-> (sql/query shout/spec
@@ -11,6 +11,7 @@
 (defn migrate []
   (when (not (migrated?))
     (print "Creating database structure...") (flush)
+    (sql/db-do-commands shout/spec "CREATE EXTENSION IF NOT EXISTS hstore;")
     (sql/db-do-commands shout/spec
                         (sql/create-table-ddl
                           :shouts

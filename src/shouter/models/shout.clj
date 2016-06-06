@@ -1,4 +1,4 @@
-(ns shouter.model.shout
+(ns shouter.models.shout
   (:require [clojure.java.jdbc :as sql]))
 
 (def spec (or (System/getenv "DATABASE_URL")
